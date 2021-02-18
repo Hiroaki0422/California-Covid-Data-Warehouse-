@@ -1,6 +1,6 @@
 # **About this project**
 
-In this project, I developed two data pipelines (DAG) with Apache Airflow. The first DAG constructs a data warehouse of California coronavirus data on AWS Redshift and it also ingests new data daily to keep the data warehouse up to date. The second data pipeline launches AWS ElasticMapReduce cluster and runs a Spark script to process big data on the cloud. All the processes are scheduled and automated by Apache Airflow. In addition, data validation is performed to ensure the data quality is good and executions of dags were done properly.
+In this project, I developed two data pipelines (DAG) with Apache Airflow. The first DAG constructs a data warehouse of California coronavirus data on AWS Redshift and it also ingests new data daily to keep the data warehouse up to date. The second data pipeline launches AWS ElasticMapReduce cluster and runs a Spark script to process big data on the cluster. All the processes are scheduled and automated by Apache Airflow. In addition, data validation is performed to ensure the data quality is good and executions of dags were done properly.
 
 All the codes in this repository are written, developed and owned by me.
 
