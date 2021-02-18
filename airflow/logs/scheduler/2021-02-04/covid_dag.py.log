@@ -1,0 +1,1040 @@
+[2021-02-03 16:17:42,050] {scheduler_job.py:154} INFO - Started process (PID=47512) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 16:17:42,116] {logging_mixin.py:112} INFO - [2021-02-03 16:17:42,115] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-03 16:17:42,117] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-03 16:17:42,118] {logging_mixin.py:112} INFO - [2021-02-03 16:17:42,118] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 16:17:42,122] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-03 16:17:42,134] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 16:17:42,162] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.112 seconds
+[2021-02-03 17:29:12,249] {scheduler_job.py:154} INFO - Started process (PID=47623) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 17:29:12,289] {logging_mixin.py:112} INFO - [2021-02-03 17:29:12,289] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-03 17:29:12,291] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-03 17:29:12,291] {logging_mixin.py:112} INFO - [2021-02-03 17:29:12,291] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 17:29:12,295] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-03 17:29:12,306] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 17:29:12,330] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-03 18:28:50,605] {scheduler_job.py:154} INFO - Started process (PID=47725) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 18:28:50,645] {logging_mixin.py:112} INFO - [2021-02-03 18:28:50,645] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-03 18:28:50,647] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-03 18:28:50,647] {logging_mixin.py:112} INFO - [2021-02-03 18:28:50,647] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 18:28:50,651] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-03 18:28:50,662] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 18:28:50,689] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.084 seconds
+[2021-02-03 19:57:43,754] {scheduler_job.py:154} INFO - Started process (PID=47815) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 19:57:43,793] {logging_mixin.py:112} INFO - [2021-02-03 19:57:43,793] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-03 19:57:43,795] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-03 19:57:43,795] {logging_mixin.py:112} INFO - [2021-02-03 19:57:43,795] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 19:57:43,799] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-03 19:57:43,811] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 19:57:43,837] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.083 seconds
+[2021-02-03 21:37:37,414] {scheduler_job.py:154} INFO - Started process (PID=48323) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 21:37:37,455] {logging_mixin.py:112} INFO - [2021-02-03 21:37:37,454] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-03 21:37:37,456] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-03 21:37:37,457] {logging_mixin.py:112} INFO - [2021-02-03 21:37:37,457] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 21:37:37,462] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-03 21:37:37,476] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-03 21:37:37,507] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.093 seconds
+[2021-02-04 01:13:41,619] {scheduler_job.py:154} INFO - Started process (PID=49657) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 01:13:41,659] {logging_mixin.py:112} INFO - [2021-02-04 01:13:41,658] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 01:13:41,660] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 01:13:41,661] {logging_mixin.py:112} INFO - [2021-02-04 01:13:41,660] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 01:13:41,665] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 01:13:41,676] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 01:13:41,702] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.083 seconds
+[2021-02-04 04:50:10,450] {scheduler_job.py:154} INFO - Started process (PID=49771) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 04:50:10,518] {logging_mixin.py:112} INFO - [2021-02-04 04:50:10,517] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 04:50:10,519] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 04:50:10,520] {logging_mixin.py:112} INFO - [2021-02-04 04:50:10,519] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 04:50:10,524] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 04:50:10,534] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 04:50:10,559] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.110 seconds
+[2021-02-04 08:26:40,795] {scheduler_job.py:154} INFO - Started process (PID=49962) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 08:26:40,834] {logging_mixin.py:112} INFO - [2021-02-04 08:26:40,834] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 08:26:40,836] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 08:26:40,836] {logging_mixin.py:112} INFO - [2021-02-04 08:26:40,836] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 08:26:40,841] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 08:26:40,853] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 08:26:40,880] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.085 seconds
+[2021-02-04 09:02:31,358] {scheduler_job.py:154} INFO - Started process (PID=50041) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 09:02:31,397] {logging_mixin.py:112} INFO - [2021-02-04 09:02:31,397] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 09:02:31,399] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 09:02:31,400] {logging_mixin.py:112} INFO - [2021-02-04 09:02:31,400] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 09:02:31,404] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 09:02:31,420] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 09:02:31,451] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.094 seconds
+[2021-02-04 10:25:36,102] {scheduler_job.py:154} INFO - Started process (PID=50129) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 10:25:36,142] {logging_mixin.py:112} INFO - [2021-02-04 10:25:36,142] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 10:25:36,145] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 10:25:36,145] {logging_mixin.py:112} INFO - [2021-02-04 10:25:36,145] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 10:25:36,150] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 10:25:36,161] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 10:25:36,186] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.084 seconds
+[2021-02-04 11:05:01,267] {scheduler_job.py:154} INFO - Started process (PID=50248) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 11:05:01,317] {logging_mixin.py:112} INFO - [2021-02-04 11:05:01,317] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 11:05:01,319] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 11:05:01,320] {logging_mixin.py:112} INFO - [2021-02-04 11:05:01,320] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 11:05:01,324] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 11:05:01,334] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 11:05:01,360] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.093 seconds
+[2021-02-04 12:35:37,945] {scheduler_job.py:154} INFO - Started process (PID=50355) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 12:35:37,987] {logging_mixin.py:112} INFO - [2021-02-04 12:35:37,986] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 12:35:37,988] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 12:35:37,989] {logging_mixin.py:112} INFO - [2021-02-04 12:35:37,989] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 12:35:37,994] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 12:35:38,004] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 12:35:38,030] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.085 seconds
+[2021-02-04 13:17:58,075] {scheduler_job.py:154} INFO - Started process (PID=50447) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:17:58,116] {logging_mixin.py:112} INFO - [2021-02-04 13:17:58,115] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:17:58,117] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:17:58,117] {logging_mixin.py:112} INFO - [2021-02-04 13:17:58,117] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:17:58,122] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:17:58,132] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:17:58,157] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.082 seconds
+[2021-02-04 13:19:24,242] {scheduler_job.py:154} INFO - Started process (PID=50538) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:19:24,289] {logging_mixin.py:112} INFO - [2021-02-04 13:19:24,288] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:19:24,291] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:19:24,291] {logging_mixin.py:112} INFO - [2021-02-04 13:19:24,291] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:19:24,296] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:19:24,306] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:19:24,332] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.090 seconds
+[2021-02-04 13:20:43,272] {scheduler_job.py:154} INFO - Started process (PID=50610) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:20:43,317] {logging_mixin.py:112} INFO - [2021-02-04 13:20:43,317] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:20:43,319] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:20:43,320] {logging_mixin.py:112} INFO - [2021-02-04 13:20:43,320] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:20:43,326] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:20:43,338] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:20:43,368] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.095 seconds
+[2021-02-04 13:22:02,193] {scheduler_job.py:154} INFO - Started process (PID=50684) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:22:02,243] {logging_mixin.py:112} INFO - [2021-02-04 13:22:02,243] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:22:02,244] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:22:02,245] {logging_mixin.py:112} INFO - [2021-02-04 13:22:02,245] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:22:02,250] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:22:02,262] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:22:02,291] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.098 seconds
+[2021-02-04 13:23:18,331] {scheduler_job.py:154} INFO - Started process (PID=50759) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:23:18,376] {logging_mixin.py:112} INFO - [2021-02-04 13:23:18,376] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:23:18,377] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:23:18,378] {logging_mixin.py:112} INFO - [2021-02-04 13:23:18,378] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:23:18,382] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:23:18,393] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:23:18,419] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.087 seconds
+[2021-02-04 13:24:53,331] {scheduler_job.py:154} INFO - Started process (PID=50847) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:24:53,387] {logging_mixin.py:112} INFO - [2021-02-04 13:24:53,387] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:24:53,389] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:24:53,390] {logging_mixin.py:112} INFO - [2021-02-04 13:24:53,390] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:24:53,396] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:24:53,409] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:24:53,441] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.111 seconds
+[2021-02-04 13:26:34,435] {scheduler_job.py:154} INFO - Started process (PID=50938) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:26:34,582] {logging_mixin.py:112} INFO - [2021-02-04 13:26:34,581] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:26:34,585] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:26:34,585] {logging_mixin.py:112} INFO - [2021-02-04 13:26:34,585] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:26:34,594] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:26:34,628] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:26:34,672] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.237 seconds
+[2021-02-04 13:28:24,898] {scheduler_job.py:154} INFO - Started process (PID=51031) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:28:24,954] {logging_mixin.py:112} INFO - [2021-02-04 13:28:24,954] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:28:24,956] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:28:24,957] {logging_mixin.py:112} INFO - [2021-02-04 13:28:24,957] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:28:24,963] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:28:24,976] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:28:25,004] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.106 seconds
+[2021-02-04 13:29:48,386] {scheduler_job.py:154} INFO - Started process (PID=51117) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:29:48,452] {logging_mixin.py:112} INFO - [2021-02-04 13:29:48,451] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:29:48,453] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:29:48,454] {logging_mixin.py:112} INFO - [2021-02-04 13:29:48,454] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:29:48,460] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:29:48,472] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:29:48,498] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.112 seconds
+[2021-02-04 13:31:03,377] {scheduler_job.py:154} INFO - Started process (PID=51190) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:31:03,415] {logging_mixin.py:112} INFO - [2021-02-04 13:31:03,415] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:31:03,417] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:31:03,417] {logging_mixin.py:112} INFO - [2021-02-04 13:31:03,417] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:31:03,422] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:31:03,432] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:31:03,459] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.082 seconds
+[2021-02-04 13:32:17,315] {scheduler_job.py:154} INFO - Started process (PID=51261) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:32:17,357] {logging_mixin.py:112} INFO - [2021-02-04 13:32:17,357] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:32:17,358] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:32:17,359] {logging_mixin.py:112} INFO - [2021-02-04 13:32:17,358] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:32:17,363] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:32:17,373] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:32:17,398] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.083 seconds
+[2021-02-04 13:33:43,926] {scheduler_job.py:154} INFO - Started process (PID=51340) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:33:43,985] {logging_mixin.py:112} INFO - [2021-02-04 13:33:43,984] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:33:43,986] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:33:43,987] {logging_mixin.py:112} INFO - [2021-02-04 13:33:43,987] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:33:43,995] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:33:44,013] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:33:44,044] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.117 seconds
+[2021-02-04 13:35:17,631] {scheduler_job.py:154} INFO - Started process (PID=51409) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:35:17,689] {logging_mixin.py:112} INFO - [2021-02-04 13:35:17,689] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:35:17,690] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:35:17,691] {logging_mixin.py:112} INFO - [2021-02-04 13:35:17,691] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:35:17,695] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:35:17,706] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:35:17,739] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.108 seconds
+[2021-02-04 13:36:52,721] {scheduler_job.py:154} INFO - Started process (PID=51481) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:36:52,771] {logging_mixin.py:112} INFO - [2021-02-04 13:36:52,771] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:36:52,773] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:36:52,774] {logging_mixin.py:112} INFO - [2021-02-04 13:36:52,774] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:36:52,781] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:36:52,793] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:36:52,828] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.107 seconds
+[2021-02-04 13:38:40,125] {scheduler_job.py:154} INFO - Started process (PID=51568) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:38:40,172] {logging_mixin.py:112} INFO - [2021-02-04 13:38:40,171] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:38:40,173] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:38:40,173] {logging_mixin.py:112} INFO - [2021-02-04 13:38:40,173] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:38:40,181] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:38:40,193] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:38:40,219] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.093 seconds
+[2021-02-04 13:40:17,272] {scheduler_job.py:154} INFO - Started process (PID=51641) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:40:17,320] {logging_mixin.py:112} INFO - [2021-02-04 13:40:17,319] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:40:17,322] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:40:17,322] {logging_mixin.py:112} INFO - [2021-02-04 13:40:17,322] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:40:17,327] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:40:17,339] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:40:17,371] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.099 seconds
+[2021-02-04 13:41:48,381] {scheduler_job.py:154} INFO - Started process (PID=51718) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:41:48,460] {logging_mixin.py:112} INFO - [2021-02-04 13:41:48,459] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:41:48,462] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:41:48,463] {logging_mixin.py:112} INFO - [2021-02-04 13:41:48,463] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:41:48,472] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:41:48,493] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:41:48,546] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.165 seconds
+[2021-02-04 13:43:35,687] {scheduler_job.py:154} INFO - Started process (PID=51818) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:43:35,751] {logging_mixin.py:112} INFO - [2021-02-04 13:43:35,751] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:43:35,752] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:43:35,753] {logging_mixin.py:112} INFO - [2021-02-04 13:43:35,753] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:43:35,762] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:43:35,789] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:43:35,845] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.159 seconds
+[2021-02-04 13:45:09,184] {scheduler_job.py:154} INFO - Started process (PID=51894) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:45:09,231] {logging_mixin.py:112} INFO - [2021-02-04 13:45:09,231] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:45:09,233] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:45:09,233] {logging_mixin.py:112} INFO - [2021-02-04 13:45:09,233] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:45:09,238] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:45:09,250] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:45:09,278] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.094 seconds
+[2021-02-04 13:46:43,904] {scheduler_job.py:154} INFO - Started process (PID=51981) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:46:43,950] {logging_mixin.py:112} INFO - [2021-02-04 13:46:43,950] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:46:43,952] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:46:43,952] {logging_mixin.py:112} INFO - [2021-02-04 13:46:43,952] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:46:43,960] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:46:43,975] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:46:44,003] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.099 seconds
+[2021-02-04 13:48:21,411] {scheduler_job.py:154} INFO - Started process (PID=52068) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:48:21,487] {logging_mixin.py:112} INFO - [2021-02-04 13:48:21,486] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:48:21,489] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:48:21,489] {logging_mixin.py:112} INFO - [2021-02-04 13:48:21,489] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:48:21,496] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:48:21,513] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:48:21,544] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.133 seconds
+[2021-02-04 13:50:09,001] {scheduler_job.py:154} INFO - Started process (PID=52151) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:50:09,082] {logging_mixin.py:112} INFO - [2021-02-04 13:50:09,082] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:50:09,085] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:50:09,086] {logging_mixin.py:112} INFO - [2021-02-04 13:50:09,085] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:50:09,098] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:50:09,115] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:50:09,147] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.146 seconds
+[2021-02-04 13:52:00,123] {scheduler_job.py:154} INFO - Started process (PID=52255) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:52:00,195] {logging_mixin.py:112} INFO - [2021-02-04 13:52:00,194] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:52:00,198] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:52:00,199] {logging_mixin.py:112} INFO - [2021-02-04 13:52:00,199] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:52:00,210] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:52:00,238] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:52:00,283] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.160 seconds
+[2021-02-04 13:54:10,051] {scheduler_job.py:154} INFO - Started process (PID=52411) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:54:10,115] {logging_mixin.py:112} INFO - [2021-02-04 13:54:10,114] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:54:10,117] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:54:10,117] {logging_mixin.py:112} INFO - [2021-02-04 13:54:10,117] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:54:10,127] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:54:10,143] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:54:10,179] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.128 seconds
+[2021-02-04 13:56:09,439] {scheduler_job.py:154} INFO - Started process (PID=52521) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:56:09,490] {logging_mixin.py:112} INFO - [2021-02-04 13:56:09,489] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:56:09,491] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:56:09,492] {logging_mixin.py:112} INFO - [2021-02-04 13:56:09,491] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:56:09,499] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:56:09,515] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:56:09,545] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.106 seconds
+[2021-02-04 13:57:47,257] {scheduler_job.py:154} INFO - Started process (PID=52612) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:57:47,320] {logging_mixin.py:112} INFO - [2021-02-04 13:57:47,320] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:57:47,322] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:57:47,322] {logging_mixin.py:112} INFO - [2021-02-04 13:57:47,322] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:57:47,330] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:57:47,344] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:57:47,370] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.113 seconds
+[2021-02-04 13:59:14,918] {scheduler_job.py:154} INFO - Started process (PID=52685) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:59:14,961] {logging_mixin.py:112} INFO - [2021-02-04 13:59:14,960] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 13:59:14,962] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 13:59:14,963] {logging_mixin.py:112} INFO - [2021-02-04 13:59:14,963] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:59:14,971] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 13:59:14,982] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 13:59:15,011] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.093 seconds
+[2021-02-04 14:00:45,043] {scheduler_job.py:154} INFO - Started process (PID=52776) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:00:45,085] {logging_mixin.py:112} INFO - [2021-02-04 14:00:45,085] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:00:45,087] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:00:45,087] {logging_mixin.py:112} INFO - [2021-02-04 14:00:45,087] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:00:45,095] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:00:45,106] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:00:45,140] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.097 seconds
+[2021-02-04 14:02:11,066] {scheduler_job.py:154} INFO - Started process (PID=52848) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:02:11,114] {logging_mixin.py:112} INFO - [2021-02-04 14:02:11,114] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:02:11,116] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:02:11,116] {logging_mixin.py:112} INFO - [2021-02-04 14:02:11,116] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:02:11,126] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:02:11,142] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:02:11,171] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.105 seconds
+[2021-02-04 14:03:33,911] {scheduler_job.py:154} INFO - Started process (PID=52923) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:03:33,977] {logging_mixin.py:112} INFO - [2021-02-04 14:03:33,976] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:03:33,979] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:03:33,979] {logging_mixin.py:112} INFO - [2021-02-04 14:03:33,979] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:03:33,988] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:03:34,011] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:03:34,043] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.133 seconds
+[2021-02-04 14:04:58,736] {scheduler_job.py:154} INFO - Started process (PID=52996) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:04:58,778] {logging_mixin.py:112} INFO - [2021-02-04 14:04:58,778] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:04:58,780] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:04:58,780] {logging_mixin.py:112} INFO - [2021-02-04 14:04:58,780] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:04:58,788] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:04:58,799] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:04:58,825] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.089 seconds
+[2021-02-04 14:06:24,402] {scheduler_job.py:154} INFO - Started process (PID=53071) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:06:24,442] {logging_mixin.py:112} INFO - [2021-02-04 14:06:24,441] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:06:24,443] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:06:24,444] {logging_mixin.py:112} INFO - [2021-02-04 14:06:24,444] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:06:24,451] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:06:24,462] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:06:24,488] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.085 seconds
+[2021-02-04 14:07:48,536] {scheduler_job.py:154} INFO - Started process (PID=53140) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:07:48,579] {logging_mixin.py:112} INFO - [2021-02-04 14:07:48,578] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:07:48,580] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:07:48,580] {logging_mixin.py:112} INFO - [2021-02-04 14:07:48,580] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:07:48,588] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:07:48,600] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:07:48,627] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.091 seconds
+[2021-02-04 14:09:25,310] {scheduler_job.py:154} INFO - Started process (PID=53213) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:09:25,358] {logging_mixin.py:112} INFO - [2021-02-04 14:09:25,357] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:09:25,360] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:09:25,360] {logging_mixin.py:112} INFO - [2021-02-04 14:09:25,360] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:09:25,368] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:09:25,380] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:09:25,405] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.096 seconds
+[2021-02-04 14:10:58,705] {scheduler_job.py:154} INFO - Started process (PID=53308) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:10:58,751] {logging_mixin.py:112} INFO - [2021-02-04 14:10:58,751] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:10:58,753] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:10:58,753] {logging_mixin.py:112} INFO - [2021-02-04 14:10:58,753] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:10:58,762] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:10:58,775] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:10:58,805] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.100 seconds
+[2021-02-04 14:12:30,875] {scheduler_job.py:154} INFO - Started process (PID=53389) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:12:30,935] {logging_mixin.py:112} INFO - [2021-02-04 14:12:30,934] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:12:30,936] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:12:30,936] {logging_mixin.py:112} INFO - [2021-02-04 14:12:30,936] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:12:30,944] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:12:30,958] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:12:30,989] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.114 seconds
+[2021-02-04 14:14:03,200] {scheduler_job.py:154} INFO - Started process (PID=53478) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:14:03,282] {logging_mixin.py:112} INFO - [2021-02-04 14:14:03,281] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:14:03,283] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:14:03,284] {logging_mixin.py:112} INFO - [2021-02-04 14:14:03,284] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:14:03,294] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:14:03,307] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:14:03,334] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.134 seconds
+[2021-02-04 14:15:29,052] {scheduler_job.py:154} INFO - Started process (PID=53548) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:15:29,104] {logging_mixin.py:112} INFO - [2021-02-04 14:15:29,103] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:15:29,106] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:15:29,106] {logging_mixin.py:112} INFO - [2021-02-04 14:15:29,106] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:15:29,111] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:15:29,124] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:15:29,152] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.100 seconds
+[2021-02-04 14:17:08,857] {scheduler_job.py:154} INFO - Started process (PID=53630) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:17:08,930] {logging_mixin.py:112} INFO - [2021-02-04 14:17:08,930] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:17:08,934] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:17:08,936] {logging_mixin.py:112} INFO - [2021-02-04 14:17:08,936] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:17:08,945] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:17:08,964] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:17:09,001] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.144 seconds
+[2021-02-04 14:18:49,827] {scheduler_job.py:154} INFO - Started process (PID=53708) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:18:49,868] {logging_mixin.py:112} INFO - [2021-02-04 14:18:49,867] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:18:49,869] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:18:49,869] {logging_mixin.py:112} INFO - [2021-02-04 14:18:49,869] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:18:49,878] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:18:49,892] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:18:49,917] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.090 seconds
+[2021-02-04 14:20:14,157] {scheduler_job.py:154} INFO - Started process (PID=53798) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:20:14,202] {logging_mixin.py:112} INFO - [2021-02-04 14:20:14,201] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:20:14,203] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:20:14,203] {logging_mixin.py:112} INFO - [2021-02-04 14:20:14,203] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:20:14,211] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:20:14,223] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:20:14,248] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.092 seconds
+[2021-02-04 14:21:38,094] {scheduler_job.py:154} INFO - Started process (PID=53873) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:21:38,140] {logging_mixin.py:112} INFO - [2021-02-04 14:21:38,140] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:21:38,142] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:21:38,142] {logging_mixin.py:112} INFO - [2021-02-04 14:21:38,142] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:21:38,150] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:21:38,165] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:21:38,192] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.098 seconds
+[2021-02-04 14:23:02,859] {scheduler_job.py:154} INFO - Started process (PID=53946) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:23:02,903] {logging_mixin.py:112} INFO - [2021-02-04 14:23:02,902] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:23:02,904] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:23:02,904] {logging_mixin.py:112} INFO - [2021-02-04 14:23:02,904] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:23:02,913] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:23:02,924] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:23:02,949] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.090 seconds
+[2021-02-04 14:24:25,472] {scheduler_job.py:154} INFO - Started process (PID=54015) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:24:25,515] {logging_mixin.py:112} INFO - [2021-02-04 14:24:25,515] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:24:25,517] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:24:25,517] {logging_mixin.py:112} INFO - [2021-02-04 14:24:25,517] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:24:25,525] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:24:25,540] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:24:25,566] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.094 seconds
+[2021-02-04 14:25:48,574] {scheduler_job.py:154} INFO - Started process (PID=54085) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:25:48,620] {logging_mixin.py:112} INFO - [2021-02-04 14:25:48,620] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:25:48,622] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:25:48,622] {logging_mixin.py:112} INFO - [2021-02-04 14:25:48,622] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:25:48,630] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:25:48,645] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:25:48,672] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.098 seconds
+[2021-02-04 14:27:10,058] {scheduler_job.py:154} INFO - Started process (PID=54152) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:27:10,123] {logging_mixin.py:112} INFO - [2021-02-04 14:27:10,123] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:27:10,125] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:27:10,126] {logging_mixin.py:112} INFO - [2021-02-04 14:27:10,125] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:27:10,133] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:27:10,156] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:27:10,193] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.135 seconds
+[2021-02-04 14:28:46,385] {scheduler_job.py:154} INFO - Started process (PID=54245) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:28:46,430] {logging_mixin.py:112} INFO - [2021-02-04 14:28:46,430] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:28:46,432] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:28:46,432] {logging_mixin.py:112} INFO - [2021-02-04 14:28:46,432] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:28:46,442] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:28:46,459] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:28:46,485] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.100 seconds
+[2021-02-04 14:30:07,717] {scheduler_job.py:154} INFO - Started process (PID=54315) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:30:07,760] {logging_mixin.py:112} INFO - [2021-02-04 14:30:07,760] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:30:07,762] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:30:07,762] {logging_mixin.py:112} INFO - [2021-02-04 14:30:07,762] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:30:07,771] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:30:07,785] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:30:07,811] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.094 seconds
+[2021-02-04 14:31:46,734] {scheduler_job.py:154} INFO - Started process (PID=54404) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:31:46,782] {logging_mixin.py:112} INFO - [2021-02-04 14:31:46,781] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:31:46,783] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:31:46,784] {logging_mixin.py:112} INFO - [2021-02-04 14:31:46,783] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:31:46,793] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:31:46,807] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:31:46,835] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.101 seconds
+[2021-02-04 14:33:11,824] {scheduler_job.py:154} INFO - Started process (PID=54469) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:33:11,867] {logging_mixin.py:112} INFO - [2021-02-04 14:33:11,867] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:33:11,868] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:33:11,869] {logging_mixin.py:112} INFO - [2021-02-04 14:33:11,869] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:33:11,877] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:33:11,888] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:33:11,914] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.090 seconds
+[2021-02-04 14:34:26,884] {scheduler_job.py:154} INFO - Started process (PID=54534) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:34:26,923] {logging_mixin.py:112} INFO - [2021-02-04 14:34:26,923] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:34:26,925] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:34:26,925] {logging_mixin.py:112} INFO - [2021-02-04 14:34:26,925] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:34:26,929] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:34:26,940] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:34:26,966] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.082 seconds
+[2021-02-04 14:35:48,656] {scheduler_job.py:154} INFO - Started process (PID=54600) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:35:48,698] {logging_mixin.py:112} INFO - [2021-02-04 14:35:48,698] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:35:48,700] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:35:48,700] {logging_mixin.py:112} INFO - [2021-02-04 14:35:48,700] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:35:48,710] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:35:48,722] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:35:48,749] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.094 seconds
+[2021-02-04 14:37:14,706] {scheduler_job.py:154} INFO - Started process (PID=54668) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:37:14,748] {logging_mixin.py:112} INFO - [2021-02-04 14:37:14,747] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:37:14,749] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:37:14,750] {logging_mixin.py:112} INFO - [2021-02-04 14:37:14,750] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:37:14,757] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:37:14,768] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:37:14,799] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.093 seconds
+[2021-02-04 14:38:32,900] {scheduler_job.py:154} INFO - Started process (PID=54733) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:38:32,949] {logging_mixin.py:112} INFO - [2021-02-04 14:38:32,948] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:38:32,950] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:38:32,950] {logging_mixin.py:112} INFO - [2021-02-04 14:38:32,950] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:38:32,958] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:38:32,970] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:38:33,001] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.102 seconds
+[2021-02-04 14:39:54,413] {scheduler_job.py:154} INFO - Started process (PID=54799) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:39:54,455] {logging_mixin.py:112} INFO - [2021-02-04 14:39:54,455] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:39:54,457] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:39:54,457] {logging_mixin.py:112} INFO - [2021-02-04 14:39:54,457] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:39:54,461] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:39:54,472] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:39:54,500] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.087 seconds
+[2021-02-04 14:41:21,180] {scheduler_job.py:154} INFO - Started process (PID=54866) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:41:21,234] {logging_mixin.py:112} INFO - [2021-02-04 14:41:21,234] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:41:21,236] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:41:21,237] {logging_mixin.py:112} INFO - [2021-02-04 14:41:21,237] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:41:21,252] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:41:21,263] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:41:21,291] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.112 seconds
+[2021-02-04 14:42:43,910] {scheduler_job.py:154} INFO - Started process (PID=54936) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:42:43,955] {logging_mixin.py:112} INFO - [2021-02-04 14:42:43,955] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:42:43,957] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:42:43,957] {logging_mixin.py:112} INFO - [2021-02-04 14:42:43,957] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:42:43,965] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:42:43,976] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:42:44,005] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.095 seconds
+[2021-02-04 14:44:10,427] {scheduler_job.py:154} INFO - Started process (PID=55007) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:44:10,505] {logging_mixin.py:112} INFO - [2021-02-04 14:44:10,504] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:44:10,507] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:44:10,507] {logging_mixin.py:112} INFO - [2021-02-04 14:44:10,507] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:44:10,520] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:44:10,536] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:44:10,576] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.148 seconds
+[2021-02-04 14:45:33,383] {scheduler_job.py:154} INFO - Started process (PID=55071) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:45:33,430] {logging_mixin.py:112} INFO - [2021-02-04 14:45:33,429] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:45:33,431] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:45:33,432] {logging_mixin.py:112} INFO - [2021-02-04 14:45:33,432] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:45:33,439] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:45:33,451] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:45:33,485] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.102 seconds
+[2021-02-04 14:46:54,218] {scheduler_job.py:154} INFO - Started process (PID=55140) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:46:54,261] {logging_mixin.py:112} INFO - [2021-02-04 14:46:54,261] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:46:54,262] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:46:54,263] {logging_mixin.py:112} INFO - [2021-02-04 14:46:54,263] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:46:54,271] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:46:54,283] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:46:54,310] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.092 seconds
+[2021-02-04 14:48:12,972] {scheduler_job.py:154} INFO - Started process (PID=55203) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:48:13,016] {logging_mixin.py:112} INFO - [2021-02-04 14:48:13,015] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:48:13,018] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:48:13,018] {logging_mixin.py:112} INFO - [2021-02-04 14:48:13,018] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:48:13,032] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:48:13,045] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:48:13,069] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.098 seconds
+[2021-02-04 14:49:31,068] {scheduler_job.py:154} INFO - Started process (PID=55268) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:49:31,109] {logging_mixin.py:112} INFO - [2021-02-04 14:49:31,108] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:49:31,111] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:49:31,111] {logging_mixin.py:112} INFO - [2021-02-04 14:49:31,111] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:49:31,119] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:49:31,135] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:49:31,160] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.092 seconds
+[2021-02-04 14:50:49,993] {scheduler_job.py:154} INFO - Started process (PID=55333) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:50:50,034] {logging_mixin.py:112} INFO - [2021-02-04 14:50:50,034] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:50:50,036] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:50:50,037] {logging_mixin.py:112} INFO - [2021-02-04 14:50:50,036] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:50:50,044] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:50:50,056] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:50:50,082] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.089 seconds
+[2021-02-04 14:52:23,888] {scheduler_job.py:154} INFO - Started process (PID=55403) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:52:23,941] {logging_mixin.py:112} INFO - [2021-02-04 14:52:23,940] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:52:23,943] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:52:23,944] {logging_mixin.py:112} INFO - [2021-02-04 14:52:23,944] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:52:23,960] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:52:23,977] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:52:24,010] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.123 seconds
+[2021-02-04 14:53:57,520] {scheduler_job.py:154} INFO - Started process (PID=55468) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:53:57,577] {logging_mixin.py:112} INFO - [2021-02-04 14:53:57,577] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:53:57,580] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:53:57,580] {logging_mixin.py:112} INFO - [2021-02-04 14:53:57,580] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:53:57,590] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:53:57,618] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:53:57,651] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.132 seconds
+[2021-02-04 14:55:32,891] {scheduler_job.py:154} INFO - Started process (PID=55537) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:55:32,941] {logging_mixin.py:112} INFO - [2021-02-04 14:55:32,940] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:55:32,942] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:55:32,942] {logging_mixin.py:112} INFO - [2021-02-04 14:55:32,942] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:55:32,951] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:55:32,966] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:55:33,001] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.110 seconds
+[2021-02-04 14:56:59,014] {scheduler_job.py:154} INFO - Started process (PID=55604) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:56:59,055] {logging_mixin.py:112} INFO - [2021-02-04 14:56:59,054] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:56:59,056] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:56:59,056] {logging_mixin.py:112} INFO - [2021-02-04 14:56:59,056] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:56:59,066] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:56:59,078] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:56:59,102] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.089 seconds
+[2021-02-04 14:58:13,103] {scheduler_job.py:154} INFO - Started process (PID=55671) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:58:13,147] {logging_mixin.py:112} INFO - [2021-02-04 14:58:13,146] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:58:13,149] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:58:13,149] {logging_mixin.py:112} INFO - [2021-02-04 14:58:13,149] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:58:13,154] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:58:13,165] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:58:13,191] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.088 seconds
+[2021-02-04 14:59:26,208] {scheduler_job.py:154} INFO - Started process (PID=55740) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:59:26,247] {logging_mixin.py:112} INFO - [2021-02-04 14:59:26,246] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 14:59:26,249] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 14:59:26,249] {logging_mixin.py:112} INFO - [2021-02-04 14:59:26,249] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:59:26,255] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 14:59:26,265] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 14:59:26,290] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.082 seconds
+[2021-02-04 15:00:39,343] {scheduler_job.py:154} INFO - Started process (PID=55804) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:00:39,408] {logging_mixin.py:112} INFO - [2021-02-04 15:00:39,407] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:00:39,409] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:00:39,409] {logging_mixin.py:112} INFO - [2021-02-04 15:00:39,409] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:00:39,414] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:00:39,424] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:00:39,449] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.105 seconds
+[2021-02-04 15:01:53,472] {scheduler_job.py:154} INFO - Started process (PID=55869) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:01:53,518] {logging_mixin.py:112} INFO - [2021-02-04 15:01:53,517] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:01:53,519] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:01:53,519] {logging_mixin.py:112} INFO - [2021-02-04 15:01:53,519] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:01:53,524] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:01:53,534] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:01:53,559] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.087 seconds
+[2021-02-04 15:03:06,633] {scheduler_job.py:154} INFO - Started process (PID=55932) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:03:06,685] {logging_mixin.py:112} INFO - [2021-02-04 15:03:06,685] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:03:06,686] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:03:06,687] {logging_mixin.py:112} INFO - [2021-02-04 15:03:06,687] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:03:06,692] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:03:06,706] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:03:06,732] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.100 seconds
+[2021-02-04 15:04:24,620] {scheduler_job.py:154} INFO - Started process (PID=56014) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:04:24,661] {logging_mixin.py:112} INFO - [2021-02-04 15:04:24,660] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:04:24,662] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:04:24,663] {logging_mixin.py:112} INFO - [2021-02-04 15:04:24,662] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:04:24,667] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:04:24,677] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:04:24,702] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.082 seconds
+[2021-02-04 15:05:37,786] {scheduler_job.py:154} INFO - Started process (PID=56076) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:05:37,826] {logging_mixin.py:112} INFO - [2021-02-04 15:05:37,825] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:05:37,827] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:05:37,827] {logging_mixin.py:112} INFO - [2021-02-04 15:05:37,827] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:05:37,832] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:05:37,842] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:05:37,867] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-04 15:06:52,024] {scheduler_job.py:154} INFO - Started process (PID=56142) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:06:52,064] {logging_mixin.py:112} INFO - [2021-02-04 15:06:52,063] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:06:52,065] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:06:52,066] {logging_mixin.py:112} INFO - [2021-02-04 15:06:52,066] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:06:52,070] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:06:52,080] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:06:52,109] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.085 seconds
+[2021-02-04 15:08:05,515] {scheduler_job.py:154} INFO - Started process (PID=56205) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:08:05,561] {logging_mixin.py:112} INFO - [2021-02-04 15:08:05,560] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:08:05,562] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:08:05,562] {logging_mixin.py:112} INFO - [2021-02-04 15:08:05,562] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:08:05,567] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:08:05,577] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:08:05,603] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.088 seconds
+[2021-02-04 15:09:19,005] {scheduler_job.py:154} INFO - Started process (PID=56268) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:09:19,047] {logging_mixin.py:112} INFO - [2021-02-04 15:09:19,046] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:09:19,048] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:09:19,049] {logging_mixin.py:112} INFO - [2021-02-04 15:09:19,049] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:09:19,053] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:09:19,064] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:09:19,089] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.084 seconds
+[2021-02-04 15:10:32,102] {scheduler_job.py:154} INFO - Started process (PID=56331) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:10:32,150] {logging_mixin.py:112} INFO - [2021-02-04 15:10:32,150] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:10:32,169] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:10:32,169] {logging_mixin.py:112} INFO - [2021-02-04 15:10:32,169] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:10:32,176] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:10:32,186] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:10:32,218] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.116 seconds
+[2021-02-04 15:11:45,923] {scheduler_job.py:154} INFO - Started process (PID=56397) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:11:45,965] {logging_mixin.py:112} INFO - [2021-02-04 15:11:45,965] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:11:45,966] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:11:45,967] {logging_mixin.py:112} INFO - [2021-02-04 15:11:45,967] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:11:45,971] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:11:45,981] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:11:46,007] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.084 seconds
+[2021-02-04 15:12:59,498] {scheduler_job.py:154} INFO - Started process (PID=56466) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:12:59,542] {logging_mixin.py:112} INFO - [2021-02-04 15:12:59,542] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:12:59,544] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:12:59,544] {logging_mixin.py:112} INFO - [2021-02-04 15:12:59,544] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:12:59,548] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:12:59,559] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:12:59,584] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.086 seconds
+[2021-02-04 15:14:12,727] {scheduler_job.py:154} INFO - Started process (PID=56535) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:14:12,781] {logging_mixin.py:112} INFO - [2021-02-04 15:14:12,781] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:14:12,783] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:14:12,783] {logging_mixin.py:112} INFO - [2021-02-04 15:14:12,783] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:14:12,787] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:14:12,798] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:14:12,823] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.096 seconds
+[2021-02-04 15:15:26,708] {scheduler_job.py:154} INFO - Started process (PID=56598) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:15:26,750] {logging_mixin.py:112} INFO - [2021-02-04 15:15:26,750] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:15:26,752] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:15:26,752] {logging_mixin.py:112} INFO - [2021-02-04 15:15:26,752] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:15:26,757] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:15:26,767] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:15:26,793] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.086 seconds
+[2021-02-04 15:16:43,339] {scheduler_job.py:154} INFO - Started process (PID=56682) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:16:43,381] {logging_mixin.py:112} INFO - [2021-02-04 15:16:43,380] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:16:43,382] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:16:43,382] {logging_mixin.py:112} INFO - [2021-02-04 15:16:43,382] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:16:43,387] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:16:43,397] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:16:43,423] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.084 seconds
+[2021-02-04 15:17:56,521] {scheduler_job.py:154} INFO - Started process (PID=56744) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:17:56,561] {logging_mixin.py:112} INFO - [2021-02-04 15:17:56,561] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:17:56,563] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:17:56,563] {logging_mixin.py:112} INFO - [2021-02-04 15:17:56,563] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:17:56,567] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:17:56,577] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:17:56,602] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-04 15:19:10,678] {scheduler_job.py:154} INFO - Started process (PID=56810) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:19:10,726] {logging_mixin.py:112} INFO - [2021-02-04 15:19:10,725] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:19:10,727] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:19:10,727] {logging_mixin.py:112} INFO - [2021-02-04 15:19:10,727] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:19:10,732] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:19:10,742] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:19:10,766] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.088 seconds
+[2021-02-04 15:20:23,838] {scheduler_job.py:154} INFO - Started process (PID=56872) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:20:23,877] {logging_mixin.py:112} INFO - [2021-02-04 15:20:23,877] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:20:23,879] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:20:23,879] {logging_mixin.py:112} INFO - [2021-02-04 15:20:23,879] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:20:23,883] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:20:23,893] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:20:23,918] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-04 15:21:37,014] {scheduler_job.py:154} INFO - Started process (PID=56936) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:21:37,059] {logging_mixin.py:112} INFO - [2021-02-04 15:21:37,058] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:21:37,060] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:21:37,060] {logging_mixin.py:112} INFO - [2021-02-04 15:21:37,060] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:21:37,065] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:21:37,078] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:21:37,104] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.090 seconds
+[2021-02-04 15:22:50,329] {scheduler_job.py:154} INFO - Started process (PID=57002) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:22:50,384] {logging_mixin.py:112} INFO - [2021-02-04 15:22:50,383] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:22:50,385] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:22:50,385] {logging_mixin.py:112} INFO - [2021-02-04 15:22:50,385] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:22:50,390] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:22:50,400] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:22:50,426] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.097 seconds
+[2021-02-04 15:24:03,503] {scheduler_job.py:154} INFO - Started process (PID=57066) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:24:03,543] {logging_mixin.py:112} INFO - [2021-02-04 15:24:03,543] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:24:03,545] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:24:03,545] {logging_mixin.py:112} INFO - [2021-02-04 15:24:03,545] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:24:03,549] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:24:03,560] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:24:03,584] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-04 15:25:20,208] {scheduler_job.py:154} INFO - Started process (PID=57143) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:25:20,252] {logging_mixin.py:112} INFO - [2021-02-04 15:25:20,252] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:25:20,254] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:25:20,254] {logging_mixin.py:112} INFO - [2021-02-04 15:25:20,254] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:25:20,263] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:25:20,274] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:25:20,298] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.090 seconds
+[2021-02-04 15:26:33,763] {scheduler_job.py:154} INFO - Started process (PID=57207) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:26:33,801] {logging_mixin.py:112} INFO - [2021-02-04 15:26:33,801] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:26:33,803] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:26:33,803] {logging_mixin.py:112} INFO - [2021-02-04 15:26:33,803] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:26:33,807] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:26:33,817] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:26:33,843] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.079 seconds
+[2021-02-04 15:27:46,523] {scheduler_job.py:154} INFO - Started process (PID=57273) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:27:46,562] {logging_mixin.py:112} INFO - [2021-02-04 15:27:46,562] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:27:46,564] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:27:46,564] {logging_mixin.py:112} INFO - [2021-02-04 15:27:46,564] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:27:46,568] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:27:46,579] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:27:46,605] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.082 seconds
+[2021-02-04 15:28:59,349] {scheduler_job.py:154} INFO - Started process (PID=57343) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:28:59,387] {logging_mixin.py:112} INFO - [2021-02-04 15:28:59,387] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:28:59,389] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:28:59,389] {logging_mixin.py:112} INFO - [2021-02-04 15:28:59,389] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:28:59,393] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:28:59,403] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:28:59,429] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.080 seconds
+[2021-02-04 15:30:11,983] {scheduler_job.py:154} INFO - Started process (PID=57409) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:30:12,021] {logging_mixin.py:112} INFO - [2021-02-04 15:30:12,021] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:30:12,022] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:30:12,023] {logging_mixin.py:112} INFO - [2021-02-04 15:30:12,023] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:30:12,027] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:30:12,037] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:30:12,062] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.079 seconds
+[2021-02-04 15:31:25,370] {scheduler_job.py:154} INFO - Started process (PID=57473) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:31:25,410] {logging_mixin.py:112} INFO - [2021-02-04 15:31:25,410] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:31:25,411] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:31:25,412] {logging_mixin.py:112} INFO - [2021-02-04 15:31:25,412] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:31:25,416] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:31:25,426] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:31:25,450] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.080 seconds
+[2021-02-04 15:32:38,396] {scheduler_job.py:154} INFO - Started process (PID=57535) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:32:38,434] {logging_mixin.py:112} INFO - [2021-02-04 15:32:38,434] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:32:38,436] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:32:38,436] {logging_mixin.py:112} INFO - [2021-02-04 15:32:38,436] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:32:38,440] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:32:38,451] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:32:38,476] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.079 seconds
+[2021-02-04 15:33:51,402] {scheduler_job.py:154} INFO - Started process (PID=57599) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:33:51,442] {logging_mixin.py:112} INFO - [2021-02-04 15:33:51,442] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:33:51,444] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:33:51,444] {logging_mixin.py:112} INFO - [2021-02-04 15:33:51,444] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:33:51,448] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:33:51,458] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:33:51,482] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-04 15:35:05,580] {scheduler_job.py:154} INFO - Started process (PID=57663) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:35:05,622] {logging_mixin.py:112} INFO - [2021-02-04 15:35:05,622] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:35:05,624] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:35:05,624] {logging_mixin.py:112} INFO - [2021-02-04 15:35:05,624] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:35:05,628] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:35:05,639] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:35:05,666] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.086 seconds
+[2021-02-04 15:36:21,350] {scheduler_job.py:154} INFO - Started process (PID=57731) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:36:21,414] {logging_mixin.py:112} INFO - [2021-02-04 15:36:21,414] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:36:21,416] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:36:21,416] {logging_mixin.py:112} INFO - [2021-02-04 15:36:21,416] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:36:21,423] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:36:21,438] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:36:21,468] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.118 seconds
+[2021-02-04 15:37:35,089] {scheduler_job.py:154} INFO - Started process (PID=57797) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:37:35,129] {logging_mixin.py:112} INFO - [2021-02-04 15:37:35,129] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:37:35,131] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:37:35,131] {logging_mixin.py:112} INFO - [2021-02-04 15:37:35,131] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:37:35,135] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:37:35,149] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:37:35,175] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.086 seconds
+[2021-02-04 15:38:47,638] {scheduler_job.py:154} INFO - Started process (PID=57860) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:38:47,675] {logging_mixin.py:112} INFO - [2021-02-04 15:38:47,675] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:38:47,677] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:38:47,677] {logging_mixin.py:112} INFO - [2021-02-04 15:38:47,677] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:38:47,681] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:38:47,691] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:38:47,716] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.079 seconds
+[2021-02-04 15:40:00,420] {scheduler_job.py:154} INFO - Started process (PID=57923) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:40:00,462] {logging_mixin.py:112} INFO - [2021-02-04 15:40:00,462] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:40:00,463] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:40:00,463] {logging_mixin.py:112} INFO - [2021-02-04 15:40:00,463] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:40:00,468] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:40:00,479] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:40:00,504] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.085 seconds
+[2021-02-04 15:41:13,370] {scheduler_job.py:154} INFO - Started process (PID=57986) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:41:13,412] {logging_mixin.py:112} INFO - [2021-02-04 15:41:13,412] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:41:13,413] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:41:13,414] {logging_mixin.py:112} INFO - [2021-02-04 15:41:13,414] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:41:13,418] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:41:13,428] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:41:13,454] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.083 seconds
+[2021-02-04 15:42:26,790] {scheduler_job.py:154} INFO - Started process (PID=58057) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:42:26,831] {logging_mixin.py:112} INFO - [2021-02-04 15:42:26,830] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:42:26,832] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:42:26,832] {logging_mixin.py:112} INFO - [2021-02-04 15:42:26,832] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:42:26,837] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:42:26,847] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:42:26,870] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-04 15:43:40,016] {scheduler_job.py:154} INFO - Started process (PID=58125) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:43:40,056] {logging_mixin.py:112} INFO - [2021-02-04 15:43:40,056] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:43:40,058] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:43:40,058] {logging_mixin.py:112} INFO - [2021-02-04 15:43:40,058] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:43:40,062] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:43:40,072] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:43:40,097] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.080 seconds
+[2021-02-04 15:44:52,932] {scheduler_job.py:154} INFO - Started process (PID=58188) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:44:52,970] {logging_mixin.py:112} INFO - [2021-02-04 15:44:52,970] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:44:52,972] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:44:52,972] {logging_mixin.py:112} INFO - [2021-02-04 15:44:52,972] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:44:52,976] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:44:52,986] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:44:53,012] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.080 seconds
+[2021-02-04 15:46:06,029] {scheduler_job.py:154} INFO - Started process (PID=58252) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:46:06,071] {logging_mixin.py:112} INFO - [2021-02-04 15:46:06,070] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:46:06,072] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:46:06,072] {logging_mixin.py:112} INFO - [2021-02-04 15:46:06,072] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:46:06,076] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:46:06,087] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:46:06,112] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.083 seconds
+[2021-02-04 15:47:22,109] {scheduler_job.py:154} INFO - Started process (PID=58325) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:47:22,180] {logging_mixin.py:112} INFO - [2021-02-04 15:47:22,179] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:47:22,182] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:47:22,182] {logging_mixin.py:112} INFO - [2021-02-04 15:47:22,182] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:47:22,196] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:47:22,210] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:47:22,242] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.133 seconds
+[2021-02-04 15:48:37,246] {scheduler_job.py:154} INFO - Started process (PID=58392) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:48:37,284] {logging_mixin.py:112} INFO - [2021-02-04 15:48:37,284] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:48:37,286] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:48:37,286] {logging_mixin.py:112} INFO - [2021-02-04 15:48:37,286] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:48:37,290] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:48:37,301] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:48:37,326] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.080 seconds
+[2021-02-04 15:49:49,804] {scheduler_job.py:154} INFO - Started process (PID=58456) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:49:49,842] {logging_mixin.py:112} INFO - [2021-02-04 15:49:49,842] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:49:49,844] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:49:49,844] {logging_mixin.py:112} INFO - [2021-02-04 15:49:49,844] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:49:49,848] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:49:49,859] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:49:49,884] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-04 15:51:02,669] {scheduler_job.py:154} INFO - Started process (PID=58517) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:51:02,710] {logging_mixin.py:112} INFO - [2021-02-04 15:51:02,710] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:51:02,712] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:51:02,712] {logging_mixin.py:112} INFO - [2021-02-04 15:51:02,712] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:51:02,716] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:51:02,727] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:51:02,752] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.083 seconds
+[2021-02-04 15:52:15,803] {scheduler_job.py:154} INFO - Started process (PID=58582) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:52:15,842] {logging_mixin.py:112} INFO - [2021-02-04 15:52:15,841] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:52:15,843] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:52:15,843] {logging_mixin.py:112} INFO - [2021-02-04 15:52:15,843] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:52:15,848] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:52:15,858] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:52:15,883] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.080 seconds
+[2021-02-04 15:53:29,118] {scheduler_job.py:154} INFO - Started process (PID=58648) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:53:29,162] {logging_mixin.py:112} INFO - [2021-02-04 15:53:29,161] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:53:29,163] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:53:29,163] {logging_mixin.py:112} INFO - [2021-02-04 15:53:29,163] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:53:29,168] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:53:29,178] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:53:29,204] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.086 seconds
+[2021-02-04 15:54:42,137] {scheduler_job.py:154} INFO - Started process (PID=58711) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:54:42,182] {logging_mixin.py:112} INFO - [2021-02-04 15:54:42,182] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:54:42,183] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:54:42,184] {logging_mixin.py:112} INFO - [2021-02-04 15:54:42,184] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:54:42,188] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:54:42,198] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:54:42,224] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.087 seconds
+[2021-02-04 15:55:55,178] {scheduler_job.py:154} INFO - Started process (PID=58773) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:55:55,219] {logging_mixin.py:112} INFO - [2021-02-04 15:55:55,219] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:55:55,220] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:55:55,221] {logging_mixin.py:112} INFO - [2021-02-04 15:55:55,221] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:55:55,225] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:55:55,235] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:55:55,259] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-04 15:57:09,375] {scheduler_job.py:154} INFO - Started process (PID=58839) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:57:09,418] {logging_mixin.py:112} INFO - [2021-02-04 15:57:09,417] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:57:09,419] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:57:09,419] {logging_mixin.py:112} INFO - [2021-02-04 15:57:09,419] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:57:09,424] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:57:09,434] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:57:09,459] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.084 seconds
+[2021-02-04 15:58:22,564] {scheduler_job.py:154} INFO - Started process (PID=58906) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:58:22,605] {logging_mixin.py:112} INFO - [2021-02-04 15:58:22,604] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:58:22,606] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:58:22,606] {logging_mixin.py:112} INFO - [2021-02-04 15:58:22,606] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:58:22,610] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:58:22,621] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:58:22,645] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.081 seconds
+[2021-02-04 15:59:36,449] {scheduler_job.py:154} INFO - Started process (PID=58973) to work on /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:59:36,493] {logging_mixin.py:112} INFO - [2021-02-04 15:59:36,492] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2021-02-04 15:59:36,494] {scheduler_job.py:1572} INFO - Processing file /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py for tasks to queue
+[2021-02-04 15:59:36,494] {logging_mixin.py:112} INFO - [2021-02-04 15:59:36,494] {dagbag.py:417} INFO - Filling up the DagBag from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:59:36,498] {logging_mixin.py:112} WARNING - /Users/hiroakioshima/opt/anaconda3/envs/covid_airflow/lib/python3.8/site-packages/airflow/utils/helpers.py:436: DeprecationWarning: Importing 'PythonOperator' directly from 'airflow.operators' has been deprecated. Please import from 'airflow.operators.[operator_module]' instead. Support for direct imports will be dropped entirely in Airflow 2.0.
+  warnings.warn(
+[2021-02-04 15:59:36,508] {scheduler_job.py:1584} INFO - DAG(s) dict_keys(['covid_warehouse_dag']) retrieved from /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py
+[2021-02-04 15:59:36,534] {scheduler_job.py:162} INFO - Processing /Users/hiroakioshima/Desktop/airflow_covid/airflow/dags/covid_dag.py took 0.085 seconds
