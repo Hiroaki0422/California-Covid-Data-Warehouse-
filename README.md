@@ -95,7 +95,7 @@ cases recorded in prisons
 |new_deaths| the number of deaths reported in this county today|
 |total_deaths| total number of deaths so far in this county|
 
-\+ 5 more fact tables. The models and fields are stored in folder_path/to/sql_queries
+\+ 5 more fact tables. The models definitions and transfomration queries are stored in airflow/plugins/helper/sql_queries
 
 #### Dimesion Tables
 **Table: county**
@@ -153,7 +153,7 @@ information about prison which outbreak is often reported
 |year| year of when the population was recorded|
 |month| month of when the population was recorded|
 
-\+ 2 more dimension tables. The models and fields are stored in folder_path/to/sql_queries
+\+ 2 more dimension tables. The models definitions and transfomration queries are stored in airflow/plugins/helper/sql_queries
 
 # Dag 2: Automating EMR job for Big Data Processing
 
@@ -180,6 +180,4 @@ The data being processed here is the case data in counties across all 50 states.
 
 ## Other Considerations for Potential Data or User Number Grow 
 
-AWS Redshift is a scalable data warehouse. As the data size grows, you can always increase the size of memory and the number of CPUs to adopt the increasing computation cost.
-
-However, in a hypothetical scenario, we decided to store log data of some clinical applications. The log data will come from hundreds of sources real time and there are very heavy write workloads and we still want the data application to be responsive. In such a case, using NoSQL database Apache Cassandra, which is a highly-available and fault-tolerant data storage, can be a potential choice. However, there are always pros and cons and migration costs are not cheap. First problem is the consistency (C of ACID properties) will be lost if we switch to a NoSQL database apache cassandra, we will not be able to join or aggregate tables. Second is we will need to fundamentally remodel our tables. NoSQL database is running on completely different rules than SQL databases. For example, we will need to rearrange our primary key in a way the data will be partitioned evenly across the cluster.
+AWS Redshift is a scalable data warehouse. As the data size grows, you can always increase the size of memory and the number of CPUs to adopt the increasing computation cost. Redshift is a columner storage which is the best for analytical usage. However one thing we have to keep in mind is the columner storage is not the best for write heavy workload. For example if we have to process hundreds of incoming write every second in real-time, data warehouse will not be the best solution. But because of the nature of our data (covid cases), we simply need to ingest data daily, and we can do batch processing, which is great for columner storage.
