@@ -1,6 +1,6 @@
 # **About this project**
 
-In this project, I developed two data pipelines (DAG) with Apache Airflow. The first DAG constructs a data warehouse of California coronavirus data on AWS Redshift and it also ingests new data daily to keep the data warehouse up to date. The second data pipeline launches AWS ElasticMapReduce cluster and runs a Spark script to process big data on the cluster. All the processes are scheduled and automated by Apache Airflow. In addition, data validation is performed to ensure the data quality is good and executions of dags were done properly.
+In this project, I developed two data pipelines (DAG) with Apache Airflow. The first DAG construct a new data warehouse from Postgres server and S3 data lake or add new data to already-existing data warehouse on AWS Redshift. The dag also ingests new data daily to keep the data warehouse up to date. The second data pipeline launches AWS ElasticMapReduce cluster and runs a Spark script to process big data on the cluster. All the processes are scheduled and automated by Apache Airflow. In addition, data validation is performed to ensure the data quality is good and executions of dags were done properly.
 
 All the codes in this repository are written, developed and owned by me.
 
@@ -15,12 +15,13 @@ I did following in this project
 - Wrote tests for data validation/ data quality check
 
 #### Data Sources
-Most data come from California Department of Public Health. Other data source are data.ca.gov, United States Census Bureau, LA Times Data Desk, and New York Times github
+Most data come from California Department of Public Health. Other data sources are data.ca.gov, United States Census Bureau, LA Times Data Desk, and New York Times github
 
 # Dag 1: California Coronavirus Data Warehouse
 ### Data Warehouse
-The purpose of this data warehouse is to construct a central data repository for california coronavirus data to healthcare workers to conduct analysis on California coronavirus situation so that they can draw data insights and make better judgements about their resource allocation. Following is some of the analytic usage examples
+The purpose of this data warehouse is to construct a central data repository about california coronavirus data for healthcare workers to conduct analysis about California coronavirus situation. So that they can draw data insights and make conclusions about their resource allocation. Following is some of examples of what analytics you can do from this data warehouse
 -  Find or predict trend or surge in cases in each county
+-  Find number of healthcare facilities, their locations and availablity in each county
 -  Find number of high risk individuals in each county
 -  Identify outbreaks in some institutions
 - Identity counties or institution who are in critical need of supplies
@@ -29,7 +30,7 @@ The purpose of this data warehouse is to construct a central data repository for
 - Analyze statewide data in the context of all 50 states
 - Visualization of data
 
-The data is stored in a clean format which allows users to flexibly query them while maximizing the space availability and minimizing query time. Data is stored in star-schema with fact and dimension tables. Fact tables include daily coronavirus cases in each county, number of still-available ICU beds in each county, cases reported in institutions such as nursing homes, adult-senior care facilities and prisons where outbreaks happen often and others. Dimension tables include demography of each county, information about healthcare institutions, nursing homes, prisons and others. Please refer to the data model section below for more detail of data models and schema.
+The data is stored in a clean format which allows users to flexibly query them while trying to maximize the space availability and minimize the query time. Data is stored in star-schema with the fact and dimension tables. Fact tables include daily coronavirus cases in each county, number of still-available ICU beds in each county, cases reported in institutions such as nursing homes, adult-senior care facilities and prisons where outbreaks happen often and others. Dimension tables include demography of each county, information about healthcare institutions, nursing homes, prisons and others. Please refer to the data model section below for more detail of data models and schema.
 
 **Data Flow**
 ![warehouse data flow](https://i.postimg.cc/R0K64cRy/Coronavirus-Data-Warehouse.png)
