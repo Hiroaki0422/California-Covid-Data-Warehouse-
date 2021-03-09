@@ -4,6 +4,13 @@ from airflow.utils.decorators import apply_defaults
 import operator
 
 class DataValidationOperator(BaseOperator):
+	"""
+	This custom operator perform the data validation.
+	Perform a given test and see if the result matches expected
+	Params:
+		redshift_conn_id = connection ID for redshift
+		dq_checks = list of tests, a test contains three parameters: query, expected result and comparator
+	"""
 
 	ui_color = 'lightblue'
 
@@ -16,8 +23,10 @@ class DataValidationOperator(BaseOperator):
 	def execute(self, context):
 		self.log.info('Starting Data Validation')
 
+		# Establish connection
 		redshift = PostgresHook(postgres_conn_id=self.redshift_conn_id)
 
+		# perform data quality test, raise error if the result didn't match given expected value
 		for test in self.dq_checks:
 			self.log.info(f'Running {test["testsql"]}')
 			result = redshift.get_records(test['testsql'])[0][0]

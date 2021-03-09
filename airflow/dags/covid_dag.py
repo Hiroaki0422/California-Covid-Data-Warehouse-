@@ -12,6 +12,7 @@ from operators.data_quality import DataValidationOperator
 from airflow.hooks.S3_hook import S3Hook
 from helpers import LoadFactQueries, LoadDimensionQueries
 
+# Arguments for this dag 
 default_args = {
     'owner': 'hiroo',
     'start_date': datetime(2021,1,3),
@@ -24,16 +25,17 @@ default_args = {
     'email_on_retry':False
 }
 
+# dag definition, the dag is scheduled to run daily
 dag = DAG('covid_warehouse_dag',
           default_args=default_args,
           description='Load and transform data in Redshift with Airflow',
           schedule_interval= '@daily'
         )
 
-# A Helper function to upload file to AWS S3
-
+# address for temporary storage in disk 
 OUTPUT_PATH = '/Users/hiroakioshima/Desktop/Hiro_Covid_Project/tables'
 
+# helper function to move files to AWS S3 
 def upload_to_S3(filename, key, bucket_name):
 	hook = S3Hook('my_S3_conn')
 	hook.load_file(filename, key, bucket_name, replace=True)
@@ -41,7 +43,7 @@ def upload_to_S3(filename, key, bucket_name):
 
 start_operator = DummyOperator(task_id='Begin_execution',  dag=dag)
 
-
+# get data about county's cases, make copy in local disk
 get_county_case = GetDataOperator(
 		task_id='Get_county_data',
 		dag=dag,
@@ -51,6 +53,7 @@ get_county_case = GetDataOperator(
 		output_path= OUTPUT_PATH
 	)
 
+# get data about hospitalized cases
 get_hospitalized_case = GetDataOperator(
 		task_id='Get_hospitalized_data',
 		dag=dag,
@@ -60,6 +63,7 @@ get_hospitalized_case = GetDataOperator(
 		output_path=OUTPUT_PATH
 	)
 
+# get data about every nursing home cases
 get_nursing_home = GetDataOperator(
 		task_id='Get_nursing_home_data',
 		dag=dag,
@@ -69,6 +73,7 @@ get_nursing_home = GetDataOperator(
 		output_path=OUTPUT_PATH
 	)
 
+# get data about senior home cases 
 get_senior_home = GetDataOperator(
 		task_id='Get_senior_home_data',
 		dag=dag,
@@ -78,6 +83,7 @@ get_senior_home = GetDataOperator(
 		output_path=OUTPUT_PATH
 	)
 
+# get data about specific city/places
 get_place_data = GetDataOperator(
 		task_id='Get_place_data',
 		dag=dag,
@@ -87,6 +93,7 @@ get_place_data = GetDataOperator(
 		output_path=OUTPUT_PATH
 	)
 
+# get data about every prison's cases
 get_prison_case_data = GetDataOperator(
 		task_id='Get_prison_case_data',
 		dag=dag,
@@ -96,6 +103,7 @@ get_prison_case_data = GetDataOperator(
 		output_path=OUTPUT_PATH
 	)
 
+# get data about reopening metrics
 get_reopening_metrics = GetDataOperator(
 		task_id='Get_reopening_metrics_data',
 		dag=dag,
@@ -105,6 +113,7 @@ get_reopening_metrics = GetDataOperator(
 		output_path=OUTPUT_PATH
 	)
 
+# get data about nationwide cases
 get_nationwide_case = GetDataOperator(
 		task_id='Get_nationwide_data',
 		dag=dag,
@@ -114,6 +123,7 @@ get_nationwide_case = GetDataOperator(
 		output_path=OUTPUT_PATH
 	)
 
+# get data about prioson's information, used for dimension tables
 get_prison_info = GetDataOperator(
 		task_id='Get_prison_info',
 		dag=dag,
@@ -123,6 +133,7 @@ get_prison_info = GetDataOperator(
 		output_path=OUTPUT_PATH
 	)
 
+# get data about reopening tier for each county
 get_reopening_tier = GetDataOperator(
 		task_id='Get_reopening_tier',
 		dag=dag,
@@ -132,7 +143,7 @@ get_reopening_tier = GetDataOperator(
 		output_path=OUTPUT_PATH
 	)
 
-
+# move county data to S3
 county_case_toS3 = PythonOperator(
 		task_id='Upload_county_case_s3',
 		dag=dag,
@@ -144,6 +155,7 @@ county_case_toS3 = PythonOperator(
 		}
 	)
 
+# move hospitalized case data to S3
 hospitalized_case_toS3 = PythonOperator(
 		task_id='Upload_hospitalized_case_s3',
 		dag=dag,
@@ -155,6 +167,7 @@ hospitalized_case_toS3 = PythonOperator(
 		}
 	)
 
+# move nursing home data to S3
 nursing_case_toS3 = PythonOperator(
 		task_id='Upload_nursinghome_case_s3',
 		dag=dag,
@@ -166,6 +179,7 @@ nursing_case_toS3 = PythonOperator(
 		}
 	)
 
+# move senior cases to S3
 senior_case_toS3 = PythonOperator(
 		task_id='Upload_senior_case_s3',
 		dag=dag,
@@ -177,6 +191,7 @@ senior_case_toS3 = PythonOperator(
 		}
 	)
 
+# move place data to S3
 place_totals_tos3 = PythonOperator(
 		task_id='Upload_places_s3',
 		dag=dag,
@@ -188,6 +203,7 @@ place_totals_tos3 = PythonOperator(
 		}
 	)
 
+# move prison case data to S3
 prison_case_tos3 = PythonOperator(
 		task_id='Upload_prison_case_s3',
 		dag=dag,
@@ -199,6 +215,7 @@ prison_case_tos3 = PythonOperator(
 		}
 	)
 
+# move reopening data to S3
 reopening_metrics_tos3 = PythonOperator(
 		task_id='Upload_reopening_metrics_tos3',
 		dag=dag,
@@ -210,6 +227,7 @@ reopening_metrics_tos3 = PythonOperator(
 		}
 	)
 
+# move nationwide case data to S3
 nationwide_tos3 = PythonOperator(
 		task_id='Upload_nationwide_tos3',
 		dag=dag,
@@ -221,6 +239,7 @@ nationwide_tos3 = PythonOperator(
 		}
 	)
 
+# move prison informaiton data to S3
 prison_info_tos3 = PythonOperator(
 		task_id='Upload_prisoninfo_tos3',
 		dag=dag,
@@ -232,6 +251,7 @@ prison_info_tos3 = PythonOperator(
 		}
 	)
 
+# move reopening tier data to S3
 reopening_tier_tos3 = PythonOperator(
 		task_id='Upload_reopening_tier_tos3',
 		dag=dag,
@@ -243,7 +263,7 @@ reopening_tier_tos3 = PythonOperator(
 		}
 	)
 
-
+# load hospitalized data to staging table on redshift server
 load_hospitalized_redshift = StageFromS3Operator(
 		task_id='Load_hospitalized_to_redshift',
 	    dag=dag,
@@ -254,6 +274,7 @@ load_hospitalized_redshift = StageFromS3Operator(
 	    s3_key='tables/staging_hospitalized.csv'
 	)
 
+# load county case data to staging table on redshift server
 load_county_redshift = StageFromS3Operator(
 		task_id='Load_county_to_redshift',
 	    dag=dag,
@@ -264,6 +285,7 @@ load_county_redshift = StageFromS3Operator(
 	    s3_key='tables/staging_county_case.csv'
 	)
 
+# load nursing home cases data to staging table on redshift server
 load_nursing_redshift = StageFromS3Operator(
 		task_id='Load_nursing_to_redshift',
 	    dag=dag,
@@ -274,6 +296,7 @@ load_nursing_redshift = StageFromS3Operator(
 	    s3_key='tables/staging_nursing_home.csv'
 	)
 
+# load senior home cases data to staging table on redshift server
 load_seniorhome_redshift = StageFromS3Operator(
 		task_id='Load_senior_to_redshift',
 	    dag=dag,
@@ -284,6 +307,7 @@ load_seniorhome_redshift = StageFromS3Operator(
 	    s3_key='tables/staging_senior_facilities.csv'
 	)
 
+# load place data to staging table on redshift server
 load_places_redshift = StageFromS3Operator(
 		task_id='Load_places_redshift',
 	    dag=dag,
@@ -294,6 +318,7 @@ load_places_redshift = StageFromS3Operator(
 	    s3_key='tables/staging_place_totals.csv'
 	)
 
+# load prison cases data to staging table on redshift server
 load_prisoncase_redshift = StageFromS3Operator(
 		task_id='Load_prisoncase_redshift',
 	    dag=dag,
@@ -304,6 +329,7 @@ load_prisoncase_redshift = StageFromS3Operator(
 	    s3_key='tables/staging_prison_cases.csv'
 	)
 
+# load openmetrics data to staging table on redshift server
 load_openmetrics_redshift = StageFromS3Operator(
 		task_id='Load_openmetrics_redshift',
 	    dag=dag,
@@ -314,6 +340,7 @@ load_openmetrics_redshift = StageFromS3Operator(
 	    s3_key='tables/staging_reopening_metrics.csv'
 	)
 
+# load nationwide cases data to staging table on redshift server
 load_nationwide_redshift = StageFromS3Operator(
 		task_id='Load_nationwide_redshift',
 	    dag=dag,
@@ -324,6 +351,7 @@ load_nationwide_redshift = StageFromS3Operator(
 	    s3_key='tables/nationwide_cases.csv'
 	)
 
+# load prison information data to staging table on redshift server
 load_prisoninfo_redshift = StageFromS3Operator(
 		task_id='Load_prisoninfo_redshift',
 	    dag=dag,
@@ -334,6 +362,7 @@ load_prisoninfo_redshift = StageFromS3Operator(
 	    s3_key='tables/staging_prisons.csv'
 	)
 
+# load open tier data to staging table on redshift server
 load_opentier_redshift = StageFromS3Operator(
 		task_id='Load_opentier_redshift',
 	    dag=dag,
@@ -344,6 +373,7 @@ load_opentier_redshift = StageFromS3Operator(
 	    s3_key='tables/staging_reopening_tier.csv'
 	)
 
+# load information about healthcare faculty from data lake to redshift staging table
 load_healthcarefacs_redshift = StageFromS3Operator(
 		task_id='Load_healthcarefacs_redshift',
 	    dag=dag,
@@ -354,6 +384,7 @@ load_healthcarefacs_redshift = StageFromS3Operator(
 	    s3_key='static/healthcare_facility_locations.csv'
 	)
 
+# load census data from data lake to redshift staging table
 load_census_redshift = StageFromS3Operator(
 		task_id='Load_census_redshift',
 	    dag=dag,
@@ -364,6 +395,7 @@ load_census_redshift = StageFromS3Operator(
 	    s3_key='static/census_2019.csv'
 	)
 
+# transform the staging tables and load county case fact table
 loadfact_county = LoadFactOperator(
 		task_id='Loadfact_county',
 		dag=dag,
@@ -373,6 +405,7 @@ loadfact_county = LoadFactOperator(
 		sql = LoadFactQueries.load_county_case
 	)
 
+# transform the staging tables and load the hospitalized fact table on redshift
 loadfact_hospitalized = LoadFactOperator(
 		task_id='Loadfact_hospitalized',
 		dag=dag,
@@ -382,7 +415,7 @@ loadfact_hospitalized = LoadFactOperator(
 		sql = LoadFactQueries.load_hospitalized_case
 	)
 
-
+# transform the staging tables and load nursing home cases fact table on redshift
 loadfact_nursing = LoadFactOperator(
 		task_id='Loadfact_nursing',
 		dag=dag,
@@ -392,6 +425,7 @@ loadfact_nursing = LoadFactOperator(
 		sql = LoadFactQueries.load_nursing_home
 	)
 
+# transform the staging tables and load senior home cases fact table on redshift
 loadfact_senior = LoadFactOperator(
 		task_id='Loadfact_senior',
 		dag=dag,
@@ -401,6 +435,7 @@ loadfact_senior = LoadFactOperator(
 		sql = LoadFactQueries.load_senior_facs
 	)
 
+# transform the staging tables and load place cases fact table on redshift
 loadfact_place = LoadFactOperator(
 		task_id='Loadfact_place',
 		dag=dag,
@@ -410,6 +445,7 @@ loadfact_place = LoadFactOperator(
 		sql = LoadFactQueries.load_places
 	)
 
+# transform the staging tables and load prison cases fact table on redshift
 loadfact_prison = LoadFactOperator(
 		task_id='Loadfact_prison',
 		dag=dag,
@@ -419,6 +455,7 @@ loadfact_prison = LoadFactOperator(
 		sql = LoadFactQueries.load_prison
 	)
 
+# transform the staging tables and load reopening metrics fact table on redshift
 loadfact_open_metrics = LoadFactOperator(
 		task_id='Loadfact_open_metrics',
 		dag=dag,
@@ -428,6 +465,7 @@ loadfact_open_metrics = LoadFactOperator(
 		sql = LoadFactQueries.load_open_metrics
 	)
 
+# transform the staging tables and load reopening tiers fact table on redshift
 loadfact_open_tiers = LoadFactOperator(
 		task_id='Loadfact_open_tiers',
 		dag=dag,
@@ -437,6 +475,7 @@ loadfact_open_tiers = LoadFactOperator(
 		sql = LoadFactQueries.load_open_tiers
 	)
 
+# transform the staging tables and load nationwide cases fact table on redshift
 loadfact_nationwide = LoadFactOperator(
 		task_id='Loadfact_nationwide',
 		dag=dag,
@@ -446,6 +485,7 @@ loadfact_nationwide = LoadFactOperator(
 		sql = LoadFactQueries.load_nationwide
 	)
 
+# transform the staging tables and load healthcare facilities dimension table on redshift
 loaddim_healthcare = PostgresOperator(
 	task_id='Loaddim_healthcare',
     dag=dag,
@@ -453,6 +493,7 @@ loaddim_healthcare = PostgresOperator(
     postgres_conn_id='redshift'
 	)
 
+# transform the staging tables and load county dimension table on redshift
 loaddim_county = PostgresOperator(
 	task_id='Loaddim_county',
     dag=dag,
@@ -460,6 +501,7 @@ loaddim_county = PostgresOperator(
     postgres_conn_id='redshift'
 	)
 
+# transform the staging tables and load prison dimension table on redshift
 loaddim_prison = PostgresOperator(
 	task_id='Loaddim_prison',
     dag=dag,
@@ -467,6 +509,7 @@ loaddim_prison = PostgresOperator(
     postgres_conn_id='redshift'
 	)
 
+# transform the staging tables and load nursing homes dimension table on redshift
 loaddim_nursing = PostgresOperator(
 	task_id='Loaddim_nursing',
     dag=dag,
@@ -474,6 +517,7 @@ loaddim_nursing = PostgresOperator(
     postgres_conn_id='redshift'
 	)
 
+# transform the staging tables and load dimension table on redshift
 loaddim_senior = PostgresOperator(
 	task_id='Loaddim_senior',
     dag=dag,
@@ -481,6 +525,7 @@ loaddim_senior = PostgresOperator(
     postgres_conn_id='redshift'
 	)
 
+# perfom data validation on fact tables, check if the latest data is loaded correctly
 dataval_fact = DataValidationOperator(
 	task_id='data_validation_facttables',
 	dag=dag,
@@ -496,6 +541,7 @@ dataval_fact = DataValidationOperator(
 			   {'testsql':'SELECT MAX(date) FROM other_states_cases', 'expected':datetime(2021,1,21), 'op':operator.eq}]
 	)
 
+# perform data validation on dimension tables, check if the number of records matches the expected number for each table
 dataval_dim = DataValidationOperator(
 	task_id='data_validation_dimtables',
 	dag=dag,
@@ -507,8 +553,10 @@ dataval_dim = DataValidationOperator(
 			   {'testsql':'SELECT COUNT(*) FROM adult_senior_care', 'expected':200, 'op':operator.ge}]
 	)
 
+
 end_operator = DummyOperator(task_id='Stop_execution',  dag=dag)
 
+# Dependency of this dag
 start_operator >> [get_county_case, get_hospitalized_case, get_nursing_home, get_senior_home, get_place_data, \
 					get_prison_case_data, get_reopening_metrics, get_nationwide_case, get_prison_info, get_reopening_tier]
 

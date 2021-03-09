@@ -4,6 +4,15 @@ from airflow.utils.decorators import apply_defaults
 from airflow.contrib.hooks.aws_hook import AwsHook
 
 class StageFromS3Operator(BaseOperator):
+    """
+    This custom operator stage tables in S3 temporary bucket to redshift server.
+    Params:
+        redshift_conn_id: connection ID for AWS redshift
+        table: target staging table on redshift
+        aws_credentials_id: a credentials used to access AWS services
+        S3_BUCKET: S3 bucket name from where you load the data to redshift
+        s3_key: key of the table within the bucket
+    """
     ui_color = '#ff0000'
     ui_fgcolor = '#000000'
     

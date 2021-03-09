@@ -4,6 +4,15 @@ from airflow.utils.decorators import apply_defaults
 from airflow.contrib.hooks.aws_hook import AwsHook
 
 class GetDataOperator(BaseOperator):
+    """
+    This custom operator sends http request to specific data sources and make copy in both
+    local postgres server and filesystem.
+    Params:
+        postgres_conn_id: the connection id of local postgres server
+        table: name of staging table in local postgres server 
+        data_url: the data source where you send http request
+        output_path: the path of local filesystem where you dump copy of the data
+    """
     ui_color = '#358140'
     
     sql_copy = """

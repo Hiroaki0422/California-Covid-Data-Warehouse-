@@ -7,6 +7,13 @@ import boto3
 
 
 class EMRLaunchClusterOperator(BaseOperator):
+    """
+    This operator launches a AWS based on given parameters dict ElasticMapReduceCluster. 
+    Returns a cluster ID upon successful launch.
+    Params:
+        emr_credential_id: credentials used for using AWS EMR service
+        JOBFLOW_OVERWRITE: configure cluster, overwrite the degault values
+    """
 
     @apply_defaults
     def __init__(self, emr_credential_id='', JOBFLOW_OVERWRITE={}, *args, **kwargs):

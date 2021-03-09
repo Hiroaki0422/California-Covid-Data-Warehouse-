@@ -7,6 +7,13 @@ import boto3
 
 
 class EMRAddJobsOperator(BaseOperator):
+    """
+    This operator adds jobs to the cluster which was launched earlier.
+    The cluster wait until the launching process is done and ready.
+    Params:
+        emr_credential_id: credential required to access aws emr cluster
+        
+    """
     template_fields = ['emr_id']
 
     @apply_defaults

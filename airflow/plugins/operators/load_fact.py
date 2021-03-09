@@ -3,6 +3,15 @@ from airflow.models import BaseOperator
 from airflow.utils.decorators import apply_defaults
 
 class LoadFactOperator(BaseOperator):
+    """
+    This custom operators transform staging tables and construct fact tables\.
+    The queries of transformation is in plugin/helpers/load_fact_query.py
+    Params:
+        redshift_conn_id: connection ID for redshift
+        table: the target dimension table you want to load
+        sql: sql query used for transformation
+    """
+
 
     ui_color = 'yellow'
 

@@ -3,7 +3,14 @@ from airflow.models import BaseOperator
 from airflow.utils.decorators import apply_defaults
 
 class LoadDimensionOperator(BaseOperator):
-
+    """
+    This custom operators transform staging tables and construct dimension tables.
+    The queries of transformation is in plugin/helpers/load_dimension_query.py
+    Params:
+        redshift_conn_id: connection ID for redshift
+        table: the target dimension table you want to load
+        sql: sql query used for transformation
+    """
     ui_color = 'orange'
 
     @apply_defaults
@@ -26,6 +33,7 @@ class LoadDimensionOperator(BaseOperator):
         # Establish the connection
         redshift = PostgresHook(postgres_conn_id=self.redshift_conn_id)
 
+        # pull the latest data from redshift
         latest_time = redshift.get_records(f'SELECT MAX(date) FROM {self.table}')[0][0]
         self.log.info(f'LATEST TIME: {latest_time}')
 

@@ -7,6 +7,14 @@ import boto3
 
 
 class EMRTerminateOperator(BaseOperator):
+    """
+    This operator terminate the EMR cluster launched earlier.
+    It termnates only after the cluster completed its job/failed
+    Params:
+        emr_credential_id: the credentials required to access the cluster
+        emr_id: the ID of the running cluster
+        
+    """
     template_fields = ['emr_id']
 
     @apply_defaults
