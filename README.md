@@ -45,7 +45,7 @@ The data is stored in a clean format which allows users to flexibly query them w
 6.  Above processes are automated to run sequentially and scheduled to run every day by Apache Airflow
 
 ### Data Models
-The purpose of this project is to run analytics, thus many joins (foreign keys) or aggregation operations are expected. Therefore I chose **Relational** data model. In addition, fact data will be huge and not all secondary indexes needed to be joined when running some analytics. I decided to write model data in star schema so that user can selectively choose which tables they want to join and it saves the space.
+The purpose of this project is to run analytics, thus many joins (foreign keys) or aggregation operations are expected. Therefore I chose **Relational** data model. In addition, fact data will be huge and not all secondary indexes needed to be joined when running some analytics, so I decided to model the data in star schema so that user can selectively choose which tables they want to join which saves the space.
 #### Fact Tables
 **Table: county_case**
 a fact table to record newly confirmed cases and deaths in each county every day
